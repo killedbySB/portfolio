@@ -1,0 +1,698 @@
+body{
+    margin: 0;
+    background-color: #292f36;
+    
+}
+header{
+    background-color: #292f36;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line img{
+    width:2020px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    color: #00ffea;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 200px; 
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-links a{
+    color: #cfcfcf;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.nav-links .homepage{
+    font-size: 1.4em;
+}
+
+.nav-links .active{
+    color: #00ffea;
+    font-size: 1.4em;
+}
+.search-box{
+    position: relative;
+}
+.search-box input[type="text"]{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.search-box .search-icon{
+    position: absolute;
+    right: 90px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1e1e1e;
+    pointer-events: none;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.socials i{
+    margin-left: 30px;
+}
+
+.socials a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+}
+.socials  .linkedin{
+    color: #00ffea;
+    margin: 5px;
+    
+}
+.socials .instagram{
+    color: #00ffea;
+    margin: 5px;
+   
+}
+.socials .github{
+    color: #00ffea;
+    margin: 5px;
+    
+}
+
+.blogs{
+    padding: 50px;
+    text-align: center;
+    top: 120px;
+    background-color: #292f36;
+    height: 2280px;
+}
+.header h2{
+    color: #00ffea;
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header p{
+    color: #bbb;
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header img{
+    width: 180px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 70px;
+}
+.buttons .sub{
+    background-color: transparent;
+    border: 2px solid #00ffea;
+    color: #fff;
+    padding: 18px 35px 18px 35px; 
+    border-radius: 42px;
+    text-decoration: none;
+    width: 162px;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+ .straightline img{
+    width: 1050px;
+} 
+.blog-post img{
+    width: 240px;
+    height: 240px;
+    gap: 0px;
+    opacity: 0px;
+    left: 500px;
+    position: absolute;
+    margin-top: -15px;
+}
+.blog-content{
+    text-align: left;
+}
+.blog-content h3{
+    color: #00ffea;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+    margin-left: 750px;
+    width: 720px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.blog-content p{
+    color: #bbb;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    margin-left: 750px;
+    width: 720px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+}
+.blog-content a{
+    color: #00ffea;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-left: 750px;
+    margin-top: 10px;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 15px;
+    margin-left: 750px;
+}
+.tags .tagweb{
+    background-color: #444;
+    padding: 5px;
+    border-radius: 5px;
+    color: #bbb;
+    font-size: 0.9em;
+}
+.tags .tag{
+    font-size: 0.9em;
+    color: #bbb;
+}
+.tags .name{
+    color: #fff;
+    margin: 5px;
+    font-size: 1.0em;
+}
+.tags .date{
+    color: #fff;
+    margin: 5px;
+}
+.tags .read{
+    color: #fff;
+    margin: 5px;
+}
+
+/*FOOTER STYLING*/
+.footer{
+    
+     padding: 20px 0;
+     font-size: 0.9em;
+     color: #aaa;
+     height: 72px;
+     gap: 16px;
+     border: 1px 0px 0px 0px;
+     opacity: 0px;
+     text-align: center;
+     padding: 32px 0px 32px 0px;
+     gap: 0px;
+     opacity: 0px;
+
+ }
+  .footerline img{
+     width: 1368px;
+ }
+ .footer-container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     width: 80%;
+     margin: 20px auto;
+     align-items: center;
+ }
+ footer-section{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .footer p{
+     margin: 5px 0;
+     right: 100px;
+     color: #fff;
+     font-size: 1.2em;
+ }
+ .footer-nav{
+     display: flex;
+     gap: 30px;
+     font-size: 1.4em;
+     margin-left: 100px;
+ }
+ .footer-nav a{
+     color: #fff;
+     text-decoration: none;
+ }
+ .footer-icons{
+     display:flex ;
+     gap: 25px;
+     margin-left: 280px;
+ }
+ .footer-icons a{
+     color: black;
+     font-size: 1.0em;
+     align-items: center;
+     text-decoration: none;
+     position: relative;
+     justify-content: center;
+     margin-left: 40px;
+ }
+ .footer-icons i{
+     width: 10px;
+     height: 10px;
+     background-color: #00ffea;
+     border: none;
+     border-radius: 100%;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 10px;
+     font-size: 1.9em;
+     text-decoration: none;
+     margin-bottom: 20px;
+     bottom: 20px;
+ }
+ .footer-design{
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.4em;
+     margin-left: 100px;
+ }
+ .footer-design .me{
+     color: #00ffea;
+ }
+ 
+
+
+
+
+/*MOBILE PHONE STYLING*/
+@media only screen and (max-width: 390px) {
+    body{
+        font-size: 0.92em;
+    }
+    header {
+         flex-direction: row; 
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 100%;
+        margin-left: -200px;
+    }
+    .logo{
+         margin-right: 50px;
+         font-size: 1.4em;
+    }
+    .search-box input[type="text"]{
+        display: none;
+    }
+    .search-icon{
+        font-size: 1.9em;
+        left: -15px;
+    }
+    .search-box .search-icon{
+        color: white;
+    }
+    .blogs .straightline{
+        width: 360px;
+        height: 0px;
+        gap: 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+    header .homepage{
+        margin-left: 60px;
+    }
+     header .logo{
+        left: -15px;
+    } 
+    .nav-links {
+        flex-direction: row;
+    }
+    .socials{
+        display: none;
+        gap: 5px;
+    }
+    .header h2{
+        margin-left: 70px; 
+        margin-bottom: -20px;
+        width: 162px;
+        height: 88px;
+        gap: 16px;
+        opacity: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .header img{
+        margin-right: -10px;
+        margin-top: px;
+        width: 150px;
+    }
+    .header p{
+        margin-left: -25px;
+        margin-top: -10px; 
+        width: 342px;
+        height: 40px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .buttons{
+        margin-right: -5px;
+        margin-top: -20px;
+        cursor: pointer;
+        margin-bottom: 30px;
+        
+    }
+    .blog-post img{
+        width: 120px;
+        height: 120px;
+        gap: 0px;
+        opacity: 0px;
+        left: 10px;
+        position: relative;
+        margin-top: 10px;
+        
+    }
+    .blog-content{
+        text-align: left;
+        margin-left: -450px;
+    }
+    .blog-content h3{
+        color: #00ffea;
+         font-size: 2.1em;
+        margin-bottom: 10px;
+        margin-left: 460px;
+        width: 312px;
+        height: 108px;
+        gap: 0px;
+        opacity: 0px; 
+    }
+    .blog-content p{
+        color: #bbb;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+        margin-left: 460px;
+        width: 312px;
+        height: 72px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .blog-content a{
+        width: 78px;
+        height: 22px;
+        gap: 4px;
+        opacity: 0px;
+        margin-left: 460px;
+        bottom: -28px; 
+    }
+     .blog-content .readmore{
+        position: relative;
+        text-align: left;
+        width: 78px;
+        height: 22px;
+        gap: 4px;
+        opacity: 0px;
+    }  
+     .curveline{
+        width: 19px;
+        height: 18px;
+        gap: 0px;
+        opacity: 0px;
+        position: absolute;
+        padding-left: 5px;
+    }
+    .straightline img{
+        width: 360px;
+        margin-left: -60px;
+    }
+    .footerline img{
+        width: 360px;
+        margin-left: -90px;
+    }
+    .line img{
+        width: 360px;
+        margin-left: 9px;
+    }
+    .tags{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-top: 30px;
+        margin-left: 460px;
+        width: 280px;
+        height: 16px;
+        gap: 8px;
+        opacity: 0px;
+    }
+    .tags .taggss{
+        width: 401px;
+        height: 24px;
+        gap: 6px;
+        opacity: 0px;
+        margin-top: 10px;
+    }
+    .footer{
+        width: 390px;
+       height: 158px;
+       gap: 24px;
+       border: 1px 0px 0px 0px;
+       opacity: 0px;
+    }
+    .footer-icons{
+       width: 160px;
+       height: 32px;
+       gap: 2px;
+       opacity: 0px;
+       margin-left: -345px;
+       margin-bottom: 180px;
+    }
+    .footer-icons i{
+        width: 3px;
+        height: 3px;
+    }
+    .footer-icons a{
+        font-size: 0.9em;
+    }
+    .footer-sectiontext{
+        width: 291px;
+        height: 18px;
+        gap: 0px;
+        opacity: 0px;
+        margin-top: -75px;
+        font-size: 0.77em;
+    }
+    .footer-sectiontext p{
+        font-size: 0.95em;
+        margin-left: -66px;
+    }
+    .footer-nav {
+        width: 291px;
+        height: 18px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: -270px; 
+        margin-top: 90px;
+        gap: 30px;
+        font-size: 0.9em;
+    }
+    .footer-sectionnav{
+        margin-bottom: 100px;
+    }
+    .footer-design{
+        width: 291px;
+        height: 18px;
+        gap: 0px;
+        opacity: 0px;
+        margin-bottom: 175px;
+        margin-left: -280px; 
+        margin-top: 10px;   
+        font-size: 0.9em;
+    }
+    .footer-sectiondesign{
+        margin-top: 40px;
+        margin-left: -120px;
+    } 
+    
+}
+
+/*TABLET STYLING*/
+ @media (min-width: 390px)  and (max-width: 768px){ 
+    
+    header{
+        width: 768px;
+        height: 80px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    header .logo{
+        width: 225px;
+        height: 32px;
+        gap: 8px;
+        opacity: 0px;
+        margin-left: 20px;
+    }
+    .nav-links{
+       width: Hug (391px)px;
+       height: Hug (20px)px;
+       gap: 22px;
+       opacity: 0px;
+       margin-left: -150px;
+    }
+    .search-box input[type="text"]{
+        display: none;
+    }
+    .search-icon{
+        font-size: 1.1em;
+        left: -15px;
+    }
+    .search-box .search-icon{
+        color: white;
+    }
+    .socials {
+        margin-left: 4px;
+    }
+    /* .socials a{
+        display: ;
+    } */
+    .header h2{
+        width: 162px;
+        height: 72px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 260px;
+        margin-bottom: -10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+     .header img{
+        width: 162px;
+        margin-right: 5px;
+     } 
+     .header p{
+       width: 640px;
+       height: 20px;
+       gap: 0px;
+       opacity: 0px; 
+       margin-left: 20px;
+       font-size: 0.8em;
+     } 
+     .buttons{
+        margin-right: 40px;
+        margin-top: 30px;
+     } 
+     .straightline img{
+        width: 521px;
+        margin-left: -5px;
+     }
+     .blog-post img{
+        width: 82px;
+        height: 92px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: -365px;
+     }
+     .blog-content h3{
+        width: 401px;
+        height: 72px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 190px;
+     }
+    .blog-content p{
+        width: 384px;
+        height: 72px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 190px;
+    }
+    .blog-content .readmore{
+        width: 78px;
+        height: 22px;
+        gap: 4px;
+        opacity: 0px;
+        margin-left: 190px;
+        margin-top: 20px;
+    }
+    .curveline{
+        width: 19px;
+        height: 18px;
+        gap: 0px;
+        opacity: 0px;
+        position: absolute;
+        padding-left: 5px;
+    }
+    .tags .tagweb{
+        width: 97px;
+        height: 16px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .tags{
+        width: 401px;
+        height: 24px;
+        gap: 8px;
+        opacity: 0px;
+        margin-left: 170px;
+    }
+    .tags .taggss{
+        width: 401px;
+        height: 24px;
+        gap: 8px;
+        opacity: 0px;
+        margin-top: 10px;
+    }
+    .footer{
+        width: 768px;
+        height: 116px;
+        gap: 24px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+    }
+    .footer-icons{
+        /* width: 160px;
+        height: 32px;
+        gap: 12px; */
+        width: 160px;
+        height: 32px;
+        gap: 32px;
+        opacity: 0px;
+        margin-left: -272px;
+    }
+    .footer-sectiontext{
+        width: 291px;
+        height: 18px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .footer-nav{
+        width: 266px;
+        height: 18px;
+        gap: 32px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+    }
+
+
+    
+} 
+
+
+
